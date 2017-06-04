@@ -86,5 +86,6 @@
     <script type="text/javascript" src="{{ asset('access/javascripts/myscript.js')}}"></script>
     <script type="text/javascript" src="{{ asset('access/javascripts/tinymce/js/tinymce/tinymce.min.js')}}"></script>
     <script type="text/javascript" src="{{ asset('access/javascripts/tinymce/js/tinymce/init-tinymce.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('js/myscript.js')}}"></script>
 </body>
 </html>

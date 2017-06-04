@@ -3,9 +3,10 @@
 
 
 <div class="col-md-8">
-    @foreach($news as $item)
-    <!-- Blog Post -->
-    <h2>
+    <div id="contentUpdate"></div>
+    {{-- @foreach($news as $item)
+    <div class="item">
+     <h2>
         <a href="#">{{ $item["titles"] }}</a>
     </h2>
     <p class="lead">
@@ -19,15 +20,14 @@
     <hr>
     <p>{!! $item["contents"] !!}</p>
     <a class="btn btn-primary" href="{{route('detail',['id' => $item["id"]]) }}">Xem Chi Tiết <span class="glyphicon glyphicon-chevron-right"></span></a>
-
     <hr>
-    <!-- End Blog Post -->
-    @endforeach
+</div>
+@endforeach --}}
 
-    <!-- Pager -->
-    <ul class="pager">
-        <div><img src="{{ asset('access/images/progress.gif')}}" alt="Loading" width="150px" /></div>
-    </ul>
+<!-- Pager -->
+<ul class="pager">
+    <div><img src="{{ asset('access/images/progress.gif')}}" alt="Loading" width="150px" /></div>
+</ul>
 
 </div>
 
